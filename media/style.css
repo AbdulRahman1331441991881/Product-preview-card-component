@@ -1,0 +1,40 @@
+.Productpreviewcardcomponent{
+    width:80%;
+    height:600px;
+    padding:20x;
+    margin:20px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+br:first-of-type{
+    display:none;
+}
+.Productpreviewcardcomponent .perfume h1{
+    font-weight:bold;
+    font-size:1.8em;
+}
+.Productpreviewcardcomponent >.imge {
+    width:100%;
+    height:100%; 
+    background-image:url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    
+}
+.Productpreviewcardcomponent .perfume{
+    width:100%;
+    height:100%; 
+    background: #fff;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.Productpreviewcardcomponent .perfume button{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.Productpreviewcardcomponent .perfume button img{
+    margin-right :10px
+}
